@@ -1,33 +1,33 @@
 package geeapp.gee.userdetailsrequestmodel;
 
 public class UserDetails {
-    private String FirstName;
-    private String LastName;
-    private String Email;
+    private String firstName;
+    private String lastName;
+    private String email;
     private String password;
 
     public String getFirstName() {
-        return FirstName;
+        return firstName;
     }
 
     public void setFirstName(String firstName) {
-        FirstName = firstName;
+        firstName = firstName;
     }
 
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
 
     public void setLastName(String lastName) {
-        LastName = lastName;
+        lastName = lastName;
     }
 
     public String getEmail() {
-        return Email;
+        return email;
     }
 
     public void setEmail(String email) {
-        Email = email;
+        email = email;
     }
 
     public String getPassword() {

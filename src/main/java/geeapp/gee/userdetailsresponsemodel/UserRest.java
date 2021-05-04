@@ -1,40 +1,40 @@
 package geeapp.gee.userdetailsresponsemodel;
 
 public class UserRest {
-    private String UserId;
-    private String Email;
-    private String FirstName;
-    private String Lastname;
+    private String userId;
+    private String email;
+    private String firstName;
+    private String lastname;
 
     public String getUserId() {
-        return UserId;
+        return userId;
     }
 
     public void setUserId(String userId) {
-        UserId = userId;
+        userId = userId;
     }
 
     public String getEmail() {
-        return Email;
+        return email;
     }
 
     public void setEmail(String email) {
-        Email = email;
+        email = email;
     }
 
     public String getFirstName() {
-        return FirstName;
+        return firstName;
     }
 
     public void setFirstName(String firstName) {
-        FirstName = firstName;
+        firstName = firstName;
     }
 
     public String getLastname() {
-        return Lastname;
+        return lastname;
     }
 
     public void setLastname(String lastname) {
-        Lastname = lastname;
+        lastname = lastname;
     }
 }
